@@ -1,0 +1,32 @@
+/* pages/demo1/index.wxss */
+page{
+    background:#f2f2f2;
+}
+.bl_1{
+    width: 80%;
+    height: 200rpx;
+    background:red;
+    margin: 20rpx auto;
+}
+.bl_2{
+    width: 80%;
+    height: 200rpx;
+    background:blue;
+    margin: 20rpx auto;
+}
+.bl_3{
+    width: 80%;
+    height: 200rpx;
+    background:yellow;
+    margin: 20rpx auto;
+}
+.body_class{
+    background:lightblue !important;
+}
+.head_class{
+    background:green !important ;
+  
+}
+.swiper-int-item{
+    color:#ffffff !important;
+}

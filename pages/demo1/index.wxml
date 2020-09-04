@@ -1,0 +1,27 @@
+<!--pages/demo1/index.wxml-->
+<view style="height:200rpx;">
+</view>
+
+<swiper-tab swiper-head="head_class" swiper-body="body_class" swiper-int-item="swiper-int-item" id="swiper-list" sticky_bg="{{swiper_tab_data.sticky_bg}}" bindswiperTab="swiperTab" sticky_top="{{swiper_tab_data.sticky_top}}" swiperTop="{{swiper_tab_data.swiperTop}}">
+	<view slot="tab_0">
+		<block wx:for="{{4}}" wx:key="index">
+			<view class="bl_1"></view>
+		</block>
+
+	</view>
+	<view slot="tab_1">
+		<block wx:for="{{2}}" wx:key="index">
+			<view class="bl_2"></view>
+		</block>
+
+	</view>
+	<view slot="tab_2">
+		<block wx:for="{{6}}" wx:key="index">
+			<view class="bl_3"></view>
+		</block>
+	</view>
+</swiper-tab>
+<view style="height:500rpx;">
+	
+</view>
+  

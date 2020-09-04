@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "swiper-tab": "/componenets/swiper-tab/index"
+  }
+}

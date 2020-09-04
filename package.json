@@ -1,0 +1,15 @@
+{
+  "name": "mine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wx-promise-pro": "^3.2.0",
+    "wx-updata": "0.0.11"
+  }
+}
