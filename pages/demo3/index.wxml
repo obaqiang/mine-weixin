@@ -1,0 +1,8 @@
+<!--pages/demo3/index.wxml-->
+<view>
+  <debounce-view bind:deTap="deTap">
+    <button type="default">测试防抖</button>
+  </debounce-view>
+
+
+</view>

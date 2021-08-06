@@ -1,0 +1,4 @@
+<!--pages/canvasImg/canvasImg.wxml-->
+<canvas type="2d" id="myCanvas" style="width: 750rpx;height: 1220rpx;"></canvas>
+<button open-type="getUserInfo">授权</button>
+<button bindtap="saveImage">保存图片</button>

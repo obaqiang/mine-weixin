@@ -1,0 +1,13 @@
+<!--componenets/ins-tabs/index.wxml-->
+<view id="insTabs" class="ins-wrapper" style="top:{{stickyTop}}px">
+
+  <scroll-view scroll-x="{{scrollX}}" enable-flex="{{true}}" scroll-into-view="tab_{{curIndex}}"
+    scroll-with-animation="{{true}}">
+    <view class="{{theme=='small'?'ins-in-small':'ins-in'}}">
+      <block wx:for="{{tabs}}" wx:key="index">
+        <view id="tab_{{index}}" class="{{theme=='small'?'tab-small':'tab'}} {{index==curIndex?'tab-on':''}}"
+          bindtap="changeTab" data-index="{{index}}">{{item.text}}</view>
+      </block>
+    </view>
+  </scroll-view>
+</view>

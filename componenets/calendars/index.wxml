@@ -1,0 +1,26 @@
+
+<view class="calendar-wrapper">
+  <!-- 星期部分 -->
+  <view class="grid-wrapper">
+    <block wx:for="{{weeks}}" wx:key="index">
+      <view class="gird-item grid-week">
+        <text class="{{index === 0 || index === 6 ? 'weekend' : ''}}">{{item}}</text>
+      </view>
+    </block>
+  </view>
+  <!-- 日期 -->
+  <view class="grid-wrapper">
+    <block wx:for="{{days}}" wx:key="index">
+      <view bindtap="onDateTap"  data-disable='{{item.disable}}' data-date="{{item.date}}" class="gird-item grid-date {{item.current && item.show ? 'grid-item-current' : ''}} {{item.disable ? 'disable' : ''}}">
+        <block wx:if="{{item.show}}">
+          <text>{{item.day}}</text>
+          <view class="grid-label-wrapper ">
+            <block wx:for="{{item.labels}}" wx:key="index" wx:for-item="labelItem">
+              <view class="label-item" style='color:{{item.current ? labelItem.currentColor :labelItem.color}}'>{{labelItem.text}}</view>
+            </block>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+</view>

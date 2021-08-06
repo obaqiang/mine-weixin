@@ -1,0 +1,38 @@
+
+
+.swiper-tab {
+  width: 100%;
+  text-align: center;
+  line-height: 90rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 99999;
+  background: #ffffff;
+}
+.swiper-tab-item {
+  width: 30%;
+  color: #434343;
+  font-size: 28rpx;
+  position: relative;
+  flex: 1;
+}
+.active {
+  color: #333333;
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.swiper_style {
+  text-align: center;
+  background-color: #fff;
+}
+.tab_bg_icon{
+  position: absolute;
+  top: 46rpx;
+  left: 70rpx;
+  width: 120rpx;
+  height: 24rpx;
+  z-index: -1;
+  visibility: hidden;
+}

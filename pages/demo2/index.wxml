@@ -1,0 +1,10 @@
+<!--pages/demo2/index.wxml-->
+<view>
+  <ins-tabs tabs="{{showTabs}}" stickyTop="{{stickyTop}}" scrollTop="{{scrollTop}}" bind:tellPos="tellPos"
+    scroll-into-view="tab_{{curIndex}}" bind:tellCurText="tellCurStatus" scroll-with-animation="{{true}}" />
+
+  <view id="aa" class="area area-a"></view>
+  <view id="bb" class="area area-b"></view>
+  <view id="cc" class="area area-c"></view>
+  <view id="dd" class="area area-d"></view>
+</view>

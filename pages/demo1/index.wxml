@@ -1,8 +1,6 @@
-<!--pages/demo1/index.wxml-->
-<view style="height:200rpx;">
-</view>
 
-<swiper-tab swiper-head="head_class" swiper-body="body_class" swiper-int-item="swiper-int-item" id="swiper-list" sticky_bg="{{swiper_tab_data.sticky_bg}}" bindswiperTab="swiperTab" sticky_top="{{swiper_tab_data.sticky_top}}" swiperTop="{{swiper_tab_data.swiperTop}}">
+
+<swiper-tab  swiper-head="head_class" swiper-body="body_class" swiper-int-item="swiper-int-item" id="swiper-list" sticky_bg="{{swiper_tab_data.sticky_bg}}" bindswiperTab="swiperTab" sticky_top="{{swiper_tab_data.sticky_top}}" swiperTop="{{swiper_tab_data.swiperTop}}">
 	<view slot="tab_0">
 		<block wx:for="{{4}}" wx:key="index">
 			<view class="bl_1"></view>
@@ -21,7 +19,7 @@
 		</block>
 	</view>
 </swiper-tab>
-<view style="height:500rpx;">
-	
-</view>
+<inpage/>
+<!-- <import src="index.skeleton.wxml"/> -->
+<!-- <template is="skeleton" wx:if="{{loading}}" /> -->
   

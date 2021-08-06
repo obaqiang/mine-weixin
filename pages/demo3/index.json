@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "debounce-view":"/componenets/debounce-view/index"
+  }
+}

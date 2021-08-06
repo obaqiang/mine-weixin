@@ -1,0 +1,53 @@
+<!--pages/create-poster/one-img/index.wxml-->
+<view class="out">
+
+  <view class="wrapper">
+    <slot name="img"></slot>
+
+    <view class="info_area">
+      <view class="price_area">
+        <text class="price_tag">￥</text>
+        <text class="price">100.00</text>
+
+        <text class="price_tail">起</text>
+
+
+
+      </view>
+      <view class="more_area">
+        <view class="left_area">
+          <view class="product_title ">
+            文字
+          </view>
+          <view class="tag_area">
+            <view class="tag">标签</view>
+            <view class="hibusinesszonename">
+              文字
+            </view>
+          </view>
+          <view class="man_area">
+            <view class="avatar_img">
+              <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <view class="man_list">
+              <view class="man_info">
+                <view class="nickname">用户名称</view>
+                <text class="phone" decode="true"> 13032222222</text>
+              </view>
+              <view class="man_rec">给你推荐了一个好产品</view>
+            </view>
+          </view>
+        </view>
+        <view class="right_area">
+          <image class="ercode" src=""></image>
+          <text class="ertext">长按识别二维码下单</text>
+        </view>
+      </view>
+    </view>
+    <view class="footer">
+      <image class="logo_icon"
+        src="">
+      </image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+/* pages/demo2/index.wxss */
+.area{
+  width: 100%;
+  height: 1000rpx;
+}
+.area-a{
+  background-color: red;
+}
+.area-b{
+  background-color: green;
+}
+.area-c{
+  background-color: blue;
+}
+.area-d{
+  background-color: yellow;
+}

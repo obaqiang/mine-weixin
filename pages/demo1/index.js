@@ -16,6 +16,7 @@ Page({
     test: {
       a: '我的天啊'
     },
+    loading:true,
     swiper_tab_data:{
 
       sticky_top:'0px',

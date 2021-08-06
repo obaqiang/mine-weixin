@@ -1,0 +1,20 @@
+
+<view id="order">
+	<view class="swiper-tab swiper-head" style="background:{{sticky_bg}};top:{{sticky_top}};position:{{position_status}};">
+		<block wx:for="{{tab_head}}" wx:key="index">
+			<view class="swiper-tab-item swiper-int-item {{currentTab==index?'active':''}} " data-current="{{index}}" bindtap="clickTab">
+				{{item.text}}
+
+			</view>
+		</block>
+	</view>
+	<swiper style="height:{{swiper_height}}" class="swiper-body" current="{{currentTab}}" data-tab="{{currentTab}}" duration="300" bindchange="swiperTab">
+		<block wx:for="{{tab_head}}" wx:key="index">
+			<swiper-item>
+				<view id="{{'tab_'+index}}">
+					<slot name="{{'tab_'+index}}"></slot>
+				</view>
+			</swiper-item>
+		</block>
+	</swiper>
+</view>

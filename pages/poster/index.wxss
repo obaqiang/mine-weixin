@@ -1,0 +1,51 @@
+/* pages/poster/index.wxss */
+page {
+  --mc: #1EBEAA;
+  --wc: #ffffff;
+  background: #eff0f2;
+}
+
+.container {
+  width: 100vw;
+}
+
+.main-img {
+  width: 638rpx;
+  height: 638rpx;
+  display: block;
+  margin: 20rpx auto;
+}
+
+.footer {
+  width: 100vw;
+  height: 100rpx;
+  position: fixed;
+  bottom: 40rpx;
+  left: 0;
+}
+
+.footer-btn {
+  margin: auto;
+  background-color: var(--mc);
+  width: 95%;
+  border-radius: 40rpx;
+  height: 80rpx;
+  color: var(--wc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 80rpx;
+}
+/* 将canvas区域隐藏 */
+.hideCanvas {
+  border: 1px solid red;
+  /* background: red; */
+  /* display: block;
+  position: fixed;
+  left: -1000px;
+  top: -1000px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none; */
+}

@@ -1,3 +1,4 @@
+@import "index.skeleton.wxss";
 /* pages/demo1/index.wxss */
 page{
     background:#f2f2f2;

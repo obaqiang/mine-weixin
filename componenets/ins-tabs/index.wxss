@@ -1,0 +1,76 @@
+/* componenets/ins-tabs/index.wxss */
+page {
+  --mc: #1EBEAA;
+  --wc: #ffffff;
+  --rc: #FF5346;
+  --gc: #999999;
+  --ggc: #666666;
+  --bc: #333333;
+  --tabh: 100rpx;
+  --tabhm: 70rpx;
+}
+
+.ins-wrapper {
+  width: 100%;
+  /* height: var(--tabh); */
+  background-color: #ffffff;
+  position: sticky;
+
+  z-index: 10;
+}
+
+.ins-in {
+  display: flex;
+  width: 100%;
+  height: var(--tabh);
+}
+
+.ins-in-small {
+  display: flex;
+  width: 100%;
+  height: var(--tabhm);
+}
+
+
+.tab {
+  flex: 1;
+  float: 1;
+  color: var(--bc);
+  font-size: 32rpx;
+  font-weight: 400;
+  min-width: 100rpx;
+  line-height: var(--tabh);
+  height: var(--tabh);
+  text-align: center;
+
+
+}
+
+.tab-small {
+  flex: 1;
+  float: 1;
+  color: var(--gc);
+  font-size: 28rpx;
+  font-weight: 400;
+  min-width: 100rpx;
+  line-height: var(--tabhm);
+  height: var(--tabhm);
+  text-align: center;
+}
+
+.tab-on {
+  font-weight: bold;
+  position: relative;
+  color: var(--bc);
+}
+
+.tab-on::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100rpx;
+  height: 6rpx;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #17D37D 0%, #1EBEAA 100%);
+}

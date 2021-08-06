@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vant/weapp": "^1.7.2",
+    "swiper-tab-qiang-shen": "^1.0.2",
     "wx-promise-pro": "^3.2.0",
     "wx-updata": "0.0.11"
   }

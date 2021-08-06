@@ -1,0 +1,27 @@
+<!--pages/poster/index.wxml-->
+<view class="container">
+  <van-tabs active="{{ active }}" sticky color="#1EBEAA" bind:change="onChange">
+    <van-tab title="标签 1">
+      <common-info>
+        <view slot="img">
+          <image class="main-img" mode="aspectFill"
+            src="http://file.qa.wandalvyou.com/Route/RouteImage/2021/07/27/7220e8e2-e4d2-4a7f-9aeb-2c2b2bbf35b1.jpg">
+          </image>
+        </view>
+      </common-info>
+    </van-tab>
+    <van-tab title="标签 2">内容 2</van-tab>
+    <van-tab title="标签 3">内容 3</van-tab>
+    <van-tab title="标签 4">内容 4</van-tab>
+  </van-tabs>
+  <view class="body">
+
+    <view class="hideCanvas">
+    <!-- canvas绘图区域 -->
+      <canvas type="2d" id="myCanvas" style="width: 375px;height: 610px;"></canvas>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footer-btn" bindtap="saveImg">保存图片</view>
+  </view>
+</view>

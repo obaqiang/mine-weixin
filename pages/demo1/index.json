@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "swiper-tab": "/componenets/swiper-tab/index"
+    "swiper-tab": "/componenets/swiper-tab/index",
+    "inpage":"components/inpage/index"
   }
 }

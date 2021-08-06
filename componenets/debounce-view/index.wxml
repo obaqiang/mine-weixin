@@ -1,0 +1,4 @@
+<!--components/debounce-view/index.wxml-->
+<view bindtap="deTap" catchtap="deCatchTap" >
+  <slot></slot>
+</view>
